@@ -1,4 +1,6 @@
 # 喜马拉雅期权蒙特卡洛模拟
 
 使用data中的五只股票作为输入数据，计算得到以其为标的的Himalaya期权价格
+
+
 在jupyternotebook中探索输入的cov矩阵（corr矩阵）非正定的情况如何解决：使用cvxpy包计算一个距离给定corr非常接近的，正定的，调整后corr矩阵
