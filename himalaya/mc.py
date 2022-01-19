@@ -24,7 +24,7 @@ class MC:
                        
               其他：4.使用payoff计算蒙卡price时所用的无风险利率rf
                     5.如果资产corr矩阵为非半正定那么对corr进行修改设定的修改后corr矩阵最小特征值mineig
-                    6.是否使用给定senerio下的corr和cov数据  True为使用 则在原来的asset参数中输入给定数据[corr,sigma]
+                    6.是否使用给定scenario下的corr和cov数据  True为使用 则在原来的asset参数中输入给定数据[corr,sigma]
                                                           False为不使用 则还是使用asset的data计算corr与cov
                     7.type:
                             ##origin:SUM(节点的累计收益率)/N期
